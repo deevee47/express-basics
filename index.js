@@ -5,7 +5,7 @@
 411 - Input was incorrect
 403 - Returning something you dont have the access to */
 
-
+//make sure to npm init -y, npm install express
 
 const express = require("express")
 const app = express() //making instance of express
@@ -116,4 +116,4 @@ function checkOneUnhealthyKidneys() {
 app.listen(3000) //3000 is port
 
 
-//To view: use portman and localhost:port/
+//To view: use postman and go to URL: localhost:port/
